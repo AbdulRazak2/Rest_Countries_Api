@@ -25,3 +25,4 @@ const SearchPage = () => {
        </Wrapper>
        );
 };
+export default SearchPage;
