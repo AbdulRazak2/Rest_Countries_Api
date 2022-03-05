@@ -1,3 +1,4 @@
+import Card from 'components/Card/Card';
 
 import Filters from 'components/Filters/Filters';
 import { Wrapper, CardsList, StyledLoading } from './SearchPage.styles';
