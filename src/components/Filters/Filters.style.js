@@ -66,3 +66,13 @@ export const DropdownMenu = styled.ul`
   box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.15);
   z-index: 20;
 `;
+
+
+export const MenuItem = styled.li`
+  font-size: ${({ theme }) => theme.fontSize.s};
+  color: ${({ theme }) => theme.colors.white};
+  padding: 12px 20px;
+  margin: 5px 0;
+  font-weight: 600;
+  background-color: ${({ theme, isHighlighted }) => (isHighlighted ? theme.colors.darkishBlue : theme.colors.darkBlue)}; ;
+`;
