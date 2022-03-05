@@ -23,9 +23,15 @@ const SearchPage = () => {
           </StyledLoading>
         );
       } else if (state === 'resolved') {
-
+        const list = countries
+        .filter((country) => country.name.common.toLowerCase().includes(inputValue.toLowerCase()))
+        .filter((country) => {
+          return country.continents.some((continent) => continent.toLowerCase().includes(selectedValue.toLowerCase()));
+        })
+        .map((country) => <Card country={country} key={country.name.common} />);
+      content = <CardsList>{list}</CardsList>;
       } else {
-          
+
       }
   return (
     <Wrapper>
