@@ -10,6 +10,9 @@ const SearchPage = () => {
     const [selectedValue, setSelectedValue] = useState('');
     const [inputValue, setInputValue] = useState('');
 
+    function handleSelectedItemChange({ selectedItem }) {
+        setSelectedValue(selectedItem);
+      }
     
   return (
     <Wrapper>
