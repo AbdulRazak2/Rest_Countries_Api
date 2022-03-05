@@ -17,7 +17,10 @@ const SearchPage = () => {
   return (
     <Wrapper>
       <Filters 
-      
+       selectedValue={selectedValue}
+       handleSelectedItemChange={handleSelectedItemChange}
+       inputValue={inputValue}
+       setInputValue={setInputValue}
       />
        </Wrapper>
        );
