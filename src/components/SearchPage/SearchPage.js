@@ -22,7 +22,11 @@ const SearchPage = () => {
             Loading...
           </StyledLoading>
         );
-      } 
+      } else if (state === 'resolved') {
+
+      } else {
+          
+      }
   return (
     <Wrapper>
       <Filters 
