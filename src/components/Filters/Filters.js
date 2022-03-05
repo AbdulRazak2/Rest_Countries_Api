@@ -10,5 +10,30 @@ const Filters = ({ selectedItem: selectedValue, handleSelecetedItemChange, input
         items,
         selectedItem: selectedValue,
         onSelectedItemChange: handleSelecetedItemChange,
-    })
-}
+    });
+
+   return(
+       <Wrapper>
+           <InputField>
+           <FontAwesomeIcon icon={faSearch} />
+           <input placeholder="Search for a country..." value={inputValue} onChange={(e) => setInputValue(e.target.value)} />
+           </InputField>
+           <OptionWrapper>
+               <StyledButton type="button" {...getToggleButtonProps()}>
+                   {selectedItem || 'Filter by Region'}
+                    </StyledButton>
+                    <DropdownMenu {...getMenuProps()}>
+                        {isOpen &&
+                        items.map((item, index)=> (
+                        <MenuItem isHighlighted={highlightedIndex === index} key={`${item}${index}`} {
+                            ...getItemProps({ item, index})}>
+                               {item || 'Filter by Region'} 
+                               </MenuItem>
+    ))}
+     </DropdownMenu>
+    </OptionWrapper>
+       </Wrapper>
+   ); 
+};
+
+export default Filters;
