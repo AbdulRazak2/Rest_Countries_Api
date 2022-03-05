@@ -14,6 +14,15 @@ const SearchPage = () => {
         setSelectedValue(selectedItem);
       }
     
+      let content;
+      if (state === 'loading') {
+        content = (
+          <StyledLoading>
+            <Icon />
+            Loading...
+          </StyledLoading>
+        );
+      } 
   return (
     <Wrapper>
       <Filters 
@@ -22,6 +31,7 @@ const SearchPage = () => {
        inputValue={inputValue}
        setInputValue={setInputValue}
       />
+       {content}
        </Wrapper>
        );
 };
