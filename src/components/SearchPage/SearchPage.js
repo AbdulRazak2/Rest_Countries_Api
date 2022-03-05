@@ -9,4 +9,13 @@ const SearchPage = () => {
     const { countries, state } = useCountries();
     const [selectedValue, setSelectedValue] = useState('');
     const [inputValue, setInputValue] = useState('');
+
+    
+  return (
+    <Wrapper>
+      <Filters 
+      
+      />
+       </Wrapper>
+       );
 };
