@@ -54,3 +54,15 @@ export const StyledButton = styled.button`
   padding-left: 20px;
   font-weight: 600;
 `;
+
+export const DropdownMenu = styled.ul`
+  position: absolute;
+  top: 40px;
+  background-color: ${({ theme }) => theme.colors.darkBlue};
+  list-style: none;
+  padding: 0;
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.15);
+  z-index: 20;
+`;
