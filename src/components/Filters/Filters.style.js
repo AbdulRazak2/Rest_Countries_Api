@@ -36,3 +36,8 @@ export const InputField = styled.div`
     }
   }
 `;
+
+export const OptionWrapper = styled.div`
+  position: relative;
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.15);
+`;
