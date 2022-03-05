@@ -41,3 +41,16 @@ export const OptionWrapper = styled.div`
   position: relative;
   box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.15);
 `;
+
+export const StyledButton = styled.button`
+  background-color: ${({ theme }) => theme.colors.darkBlue};
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  color: ${({ theme }) => theme.colors.white};
+  font-size: ${({ theme }) => theme.fontSize.s};
+  text-align: left;
+  padding-left: 20px;
+  font-weight: 600;
+`;
