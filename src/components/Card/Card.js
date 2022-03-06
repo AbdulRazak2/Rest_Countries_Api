@@ -27,7 +27,6 @@ const Card = ({ country }) => {
           </p>
         </div>
       </StyledLink>
-      
     </Wrapper>
   );
 };
