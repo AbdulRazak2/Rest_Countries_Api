@@ -10,3 +10,8 @@ export const CountriesProvider = ({ children }) => {
     },
     [countries]
   );
+  const findByAltSpelling = (altSpelling) => {
+    console.log('findByAltSpelling');
+    if (!countries) return;
+    return countries.find((country) => country.cca3 === altSpelling);
+  };
