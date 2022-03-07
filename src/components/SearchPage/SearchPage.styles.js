@@ -43,5 +43,11 @@ font-size: 30px;
 font-weight: 600;
 height: 400px;
 letter-spacing: 1px;
+svg {
+    width: 40px;
+    height: auto;
+    margin-right: 25px;
+    animation: ${jump} 2.5s linear infinite;
+  }
 `;
 
