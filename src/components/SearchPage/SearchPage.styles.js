@@ -30,3 +30,7 @@ export const Wrapper = styled.div`
     transform: rotate(360deg)
   }
 `;
+
+export const StyledLoading = styled.div`
+
+`;
