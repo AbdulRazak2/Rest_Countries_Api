@@ -22,3 +22,11 @@ export const Wrapper = styled.div`
     gap: 40px 30px;
   }
   `;
+
+  const jump = keyframes`
+  0%{
+    transform: rotate(0)
+  }100%{
+    transform: rotate(360deg)
+  }
+`;
