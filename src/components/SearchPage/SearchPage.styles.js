@@ -34,6 +34,14 @@ export const Wrapper = styled.div`
 
 
 export const StyledLoading = styled.div`
-
+width: 100%;
+color: ${({ theme }) => theme.colors.white};
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+font-weight: 600;
+height: 400px;
+letter-spacing: 1px;
 `;
 
