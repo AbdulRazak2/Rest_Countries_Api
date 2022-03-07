@@ -49,5 +49,8 @@ svg {
     margin-right: 25px;
     animation: ${jump} 2.5s linear infinite;
   }
+  path {
+    fill: ${({ theme }) => theme.colors.white};
+  }
 `;
 
