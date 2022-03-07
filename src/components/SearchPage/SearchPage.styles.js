@@ -10,3 +10,15 @@ export const Wrapper = styled.div`
     padding: 20px;
   }
   `;
+  export const CardsList = styled.div`
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fill, 320px);
+  justify-content: space-evenly;
+  margin: 0 auto;
+  gap: 80px 30px;
+  @media (max-width: 500px) {
+    gap: 40px 30px;
+  }
+  `;
