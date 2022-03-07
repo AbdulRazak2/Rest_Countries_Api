@@ -1,3 +1,4 @@
+
 import styled, { keyframes } from 'styled-components';
 
 export const Wrapper = styled.div`
@@ -30,3 +31,5 @@ export const Wrapper = styled.div`
     transform: rotate(360deg)
   }
 `;
+
+import styled, { keyframes } from 'styled-components';
