@@ -32,4 +32,25 @@ export const Wrapper = styled.div`
   }
 `;
 
-import styled, { keyframes } from 'styled-components';
+
+export const StyledLoading = styled.div`
+width: 100%;
+color: ${({ theme }) => theme.colors.white};
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+font-weight: 600;
+height: 400px;
+letter-spacing: 1px;
+svg {
+    width: 40px;
+    height: auto;
+    margin-right: 25px;
+    animation: ${jump} 2.5s linear infinite;
+  }
+  path {
+    fill: ${({ theme }) => theme.colors.white};
+  }
+`;
+
