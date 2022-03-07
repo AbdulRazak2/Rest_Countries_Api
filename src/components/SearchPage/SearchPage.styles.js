@@ -1,3 +1,4 @@
+
 import styled, { keyframes } from 'styled-components';
 
 export const Wrapper = styled.div`
@@ -31,6 +32,8 @@ export const Wrapper = styled.div`
   }
 `;
 
+
 export const StyledLoading = styled.div`
 
 `;
+
