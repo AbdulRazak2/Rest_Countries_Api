@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
@@ -67,12 +69,11 @@ export const DropdownMenu = styled.ul`
   z-index: 20;
 `;
 
-
 export const MenuItem = styled.li`
   font-size: ${({ theme }) => theme.fontSize.s};
   color: ${({ theme }) => theme.colors.white};
   padding: 12px 20px;
   margin: 5px 0;
   font-weight: 600;
-  background-color: ${({ theme, isHighlighted }) => (isHighlighted ? theme.colors.darkishBlue : theme.colors.darkBlue)}; ;
+  background-color: ${({ theme, isHighlighted }) => (isHighlighted ? theme.colors.darkishBlue : theme.colors.darkBlue)};
 `;

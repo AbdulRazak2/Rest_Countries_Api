@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import Card from 'components/Card/Card';
 
 import Filters from 'components/Filters/Filters';
