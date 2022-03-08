@@ -1,5 +1,6 @@
+/* eslint-disable prettier/prettier */
 
-import styled, { keyframes } from 'styled-components';
+import styled, { keyframes } from "styled-components";
 
 export const Wrapper = styled.div`
   background-color: ${({ theme }) => theme.colors.veryDarkBlue};
@@ -10,8 +11,8 @@ export const Wrapper = styled.div`
   @media (max-width: 500px) {
     padding: 20px;
   }
-  `;
-  export const CardsList = styled.div`
+`;
+export const CardsList = styled.div`
   width: 100%;
   display: grid;
   justify-items: center;
@@ -22,9 +23,9 @@ export const Wrapper = styled.div`
   @media (max-width: 500px) {
     gap: 40px 30px;
   }
-  `;
+`;
 
-  const jump = keyframes`
+const jump = keyframes`
   0%{
     transform: rotate(0)
   }100%{
@@ -32,18 +33,17 @@ export const Wrapper = styled.div`
   }
 `;
 
-
 export const StyledLoading = styled.div`
-width: 100%;
-color: ${({ theme }) => theme.colors.white};
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 30px;
-font-weight: 600;
-height: 400px;
-letter-spacing: 1px;
-svg {
+  width: 100%;
+  color: ${({ theme }) => theme.colors.white};
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 600;
+  height: 400px;
+  letter-spacing: 1px;
+  svg {
     width: 40px;
     height: auto;
     margin-right: 25px;
@@ -53,4 +53,3 @@ svg {
     fill: ${({ theme }) => theme.colors.white};
   }
 `;
-
