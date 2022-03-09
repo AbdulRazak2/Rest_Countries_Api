@@ -2,7 +2,7 @@
 
 # Project Objective
 
-To integrate with the REST Countries V3.1 API to pull country data and display it as show in the given attachment.
+To integrate with the REST Countries V3.1 API to pull country data and display it as shown below.
 The team is required to use the React javascript front end framework with complete control of which packages it uses to do things.e.g: make HTTP request or style the project.
 
 ### Customer Requirements
@@ -26,10 +26,10 @@ Users should be able to:
 
 ![Home Page](./public/homepage.png)
 
-## My process
+## Our process
 
 A team of four front-end developers used React functional components to build the project.
-Each team member work on the particular storyline assigned to them. Finally the project was deployed via Netlify.
+Each team member worked on the particular user story assigned to them. Finally the project was deployed via Netlify.
 
 ### Built with
 
